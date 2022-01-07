@@ -1,0 +1,8 @@
+print('{:X^60}'.format(' ALUGUEL DE CARROS '))
+nome = input('Qual é o seu nome? ')
+dias = int(input('Por quantos dias você alugou o carro? '))
+km = int(input('Quantos Km você rodou? '))
+diaria = float(input('Valor da diária: R$ '))
+kmvalor= float(input('Valor por km rodado: R$ '))
+valortot = (dias * diaria) + (km * kmvalor)
+print('Olá {}! Você fez uma locação por {} dias e rodou {} km.\nPortanto, o valor total da sua locação ficou em R$ {:.2f}.'.format(nome, dias, km, valortot))

@@ -1,0 +1,5 @@
+cidade = input('Em que cidade você nasceu? ').strip()
+#print(cidade[:5].upper() == 'SANTO')
+print('{} começa com Santo? {}'.format(cidade, cidade[:5].upper() == 'SANTO'))
+#cidade = cidade.split()
+#print('Santo' in cidade[0])
